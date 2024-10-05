@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 //import 'package:flutter/material.dart' show IconData;
 
 
-
 class MenuItem {
 
   final String title;
@@ -21,6 +20,13 @@ class MenuItem {
 
 
 const appMenuItems = <MenuItem>[
+
+  MenuItem(
+    title: 'Counter Riverpod', 
+    subtitle: 'Intro to Riverpod', 
+    link: '/counter_riverpod', 
+    icon: Icons.add
+  ),
 
   MenuItem(
     title: 'Botones', 
